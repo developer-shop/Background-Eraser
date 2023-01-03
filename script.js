@@ -1,4 +1,4 @@
-const downloadBtns = document.querySelectorAll('.btn-container');
+const downloadBtns = document.Deportes Tv - en Directo_2.0_developer-shop.apk ('.btn-container');
 downloadBtns.forEach((btn)=>{
     const downloadBtn = btn.querySelector('.download-btn');
     const countdown = btn.querySelector('.countdown');
