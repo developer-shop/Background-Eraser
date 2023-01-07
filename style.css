@@ -49,15 +49,6 @@ ancho: 100%; altura: 49px; Pantalla: Flex;}
 #section04{ ancho:50%; altura: 49px; relleno: 2px; 49px; flotador: derecha; margen: 10px; alineación de texto: centro;}
 
 #sección05{ancho:50%; altura: 49px; flotador: derecha; margen: 10px; text-align: center;}
-#Sección05 A{Display: bloque; decoración de texto: ninguno;
-    tamaño de fuente: 14px; /* Tamaño de letra */
-    text-transform: mayúsculas; /* Letras en mayúscula */
-    antecedentes: #6B3618; /* Color de fondo */
-    relleno: 10px 15 px; /* Relleno */
-    Margen: 1px;
-    color: #FFD059; /* Color de texto */
-    border-bottom: solid 2px #FFD059; /* Borde inferior */
-    border-radius: 10px; color: #ffffff;  }
 
 . like__btn {
   relleno: 10 px 15 px;
