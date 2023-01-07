@@ -1,6 +1,6 @@
 const likeBtn = documento. querySelector(".like__btn");
-let likeIcon = documento. querySelector("#icon"),
-  recuento = documento. querySelector("#count");
+const likeIcon = documento. querySelector("#icon"),
+const  recuento = documento. querySelector("#count");
 
 let clicked = false;
 
