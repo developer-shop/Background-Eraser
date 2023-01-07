@@ -1,56 +1,79 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+
+*{relleno: 0;
+margen: 0;
+
 }
-body{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  background: rgb(224, 224, 224);
+
+cuerpo{ancho:100%; altura: 100%; Antecedentes: #ffffff;}
+  
+ 
+  
+. contenedor{ 
+altura: 150px; ancho: 100%;}
+
+#section1{text-align: center;
+ancho: 44%; altura: 150px; flotador: derecha; }
+#sección1 img{borde: 1px negro sólido; radio de borde: 10px; text-align: center;}
+
+  
+#Sección2{
+ancho: 55%; Altura: 100px;}
+#titulo{ relleno: 15px; margen: 10px; text-align: center;}
+
+#Sección3{
+ancho: 55%; altura: 49px; Pantalla: Flex;}
+
+#section4{ width:50%; altura: 49px; margen: 10px; text-align: center;}
+#linea{ altura: 49px; borde: 1px negro sólido;}
+#sección5{ancho:50%; altura: 49px; flotador: derecha; margen: 10px; text-align: center;}
+
+
+
+. nav{width:100%; altura: 30px; text-align: center;}
+
+. nav a{display: bloque; decoración de texto: ninguno;
+    tamaño de fuente: 16px; /* Tamaño de letra */
+    text-transform: mayúsculas; /* Letras en mayúscula */
+    antecedentes: #6B3618; /* Color de fondo */
+    relleno: 10px 15 px; /* Relleno */
+    Margen: 10px;
+    color: #FFD059; /* Color de texto */
+    borde-abajo: sólido 2px #FFD059; /* Borde inferior */
+    radio de borde: 10px; Color: #ffffff;  }
+
+  #Sección03{
+ancho: 100%; altura: 49px; Pantalla: Flex;}
+#section08{ ancho:10%;}
+  
+#section04{ ancho:50%; altura: 49px; relleno: 2px; 49px; flotador: derecha; margen: 10px; alineación de texto: centro;}
+
+#sección05{ancho:50%; altura: 49px; flotador: derecha; margen: 10px; text-align: center;}
+#Sección05 A{Display: bloque; decoración de texto: ninguno;
+    tamaño de fuente: 14px; /* Tamaño de letra */
+    text-transform: mayúsculas; /* Letras en mayúscula */
+    antecedentes: #6B3618; /* Color de fondo */
+    relleno: 10px 15 px; /* Relleno */
+    Margen: 1px;
+    color: #FFD059; /* Color de texto */
+    border-bottom: solid 2px #FFD059; /* Borde inferior */
+    border-radius: 10px; color: #ffffff;  }
+
+. like__btn {
+  relleno: 10 px 15 px;
+  Antecedentes: #0080FF;
+  tamaño de fuente: 18px;
+  font-family: "Open Sans", sans-serif;
+  Radio de borde: 5px;
+  Color: #E8efff;
+  esquema: ninguno;
+  borde: ninguno;
+  cursor: puntero;
 }
-.download-btn{
-  position: relative;
-  font-size: 1.3em;
-  font-weight: 400;
-  background: #4285f4;
-  color: #fff;
-  padding: 18px;
-  border-radius: 30px;
-  text-decoration: none;
-  cursor: pointer;
-  transition: background 0.3s ease;
-  box-shadow: 0 5px 25px rgba(1, 1, 1, 0.26);
-}
-.download-btn:hover{
-  background: #116cff;
-}
-.download-btn i{
-  margin-right: 10px;
-}
-.countdown{
-  font-size: 1.3em;
-  font-weight: 700;
-}
-.countdown span{
-  font-size: 1.3em;
-  font-weight: 800;
-  color: #2e7cfa;
-}
-.pleaseWait-text{
-  font-size: 1.3em;
-  font-weight: 700;
-  display: none;
-}
-.manualDownload-text{
-  font-size: 1.3em;
-  font-weight: 600;
-  display: none;
-}
-.manualDownload-link{
-  font-size: 1.1em;
-  font-weight: 600;
-  color: #2e7cfa;
-}
+  
+.main{   width:100%;  max-height: 220px;  display: flex; overflow-x: auto;}
+#section6 img{ border: 1px solid black; border-radius: 10px; height: 200px; width: 130px;  display: flex;}
+#section6{ margin: 5px; border-radius: 10px;  display: flex;}
+
+.footer{ width:90%; height: 100%; margin: 10px; }
+p{padding: 10px; }
