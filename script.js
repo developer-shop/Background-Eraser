@@ -1,6 +1,6 @@
 const likeBtn = document.querySelector("like__btn");
-let likeIcon = document.querySelector("#icon"),
-const count = document.querySelector("#count");
+let likeIcon = document.querySelector("#icon");
+let count = document.querySelector("#count");
 
 let clicked = false;
 
