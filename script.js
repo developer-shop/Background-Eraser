@@ -1,18 +1,18 @@
-const likeBtn = documento. querySelector(".like__btn");
-const likeIcon = documento. querySelector("#icon"),
-const  recuento = documento. querySelector("#count");
+const likeBtn = document.querySelector(".like__btn");
+let likeIcon = document.querySelector("#icon"),
+let count = document.querySelector("#count");
 
 let clicked = false;
 
 
-como Btn. addEventListener("clic", () => {
-  si (! Clic) {
-    clicado = verdadero;
-    likeIcon. innerHTML = '<i class="fas fa-thumbs-up"></i>';
-    contar. textContent++;
-  } más {
-    clicado = false;
-    likeIcon. innerHTML = '<i class="far fa-thumbs-up"></i>';
-    contar. textContent--;
+likeBtn.addEventListener("click", () => {
+  if (!clicked) {
+    clicked = true;
+    likeIcon.innerHTML = `<i class="fas fa-thumbs-up"></i>`;
+    count.textContent++;
+  } else {
+    clicked = false;
+    likeIcon.innerHTML = `<i class="far fa-thumbs-up"></i>`;
+    count.textContent--;
   }
 });
