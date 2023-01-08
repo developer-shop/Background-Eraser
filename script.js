@@ -1,4 +1,4 @@
-const likeBtn = document.querySelector(".like__btn");
+const likeBtn = document.querySelector("like__btn");
 let likeIcon = document.querySelector("#icon"),
 let count = document.querySelector("#count");
 
